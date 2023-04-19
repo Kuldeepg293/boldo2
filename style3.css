@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* img {
+  max-width: 100%;
+  max-height: 100%;
+} */
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.dflex {
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  display: inline-block;
+  padding: 0 18px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0a2640;
+}
+
+/* /////////////////////////  MENU-BAR /////////////////////////// */
+#menubar {
+  background: #65e4a3;
+  height: 75vh;
+}
+
+.menubar {
+  padding-top: 35px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.logo {
+  float: left;
+}
+.menuvar1 {
+  float: right;
+}
+.menuvar1 button {
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 40px 8px 40px;
+}
+
+.about {
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+.pppp {
+  font-size: 18px;
+}
+
+.aboutdetails {
+  display: flex;
+  font-size: 42px;
+  align-items: center;
+}
+.aboutdetails p {
+  align-items: flex-start;
+}
+.aboutdetails2 {
+  font-size: 15px;
+}
+
+/* /////////////////////////  SECTION-OUR-SERVICES /////////////////////////// */
+
+#ourmember {
+  margin-top: 80px;
+  /* height: 100vh; */
+}
+
+.ourmemberrr {
+  text-align: center;
+  align-items: center;
+}
+
+.ourmemberrr h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.ourdetail p {
+  font-size: 42px;
+  padding: 15px 97px;
+}
+
+.ournumber {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numberrrr h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.numberrrr p {
+  font-size: 14px;
+}
+
+/* /////////////////////////  SECTION-OUR-STORY /////////////////////////// */
+
+#ourstory {
+  background: #0a2640;
+  margin-top: 80px;
+  color: #fff;
+}
+
+.ourstoryname {
+  padding: 84px 91px;
+}
+
+.ourstoryname h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ourstoryhead p {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.ourstorypp p {
+  font-size: 18px;
+  font-weight: 300;
+  line-break: 25px;
+}
+
+/* ///////////////////////// */
+
+#ourstory1 {
+  /* background: #0a2640; */
+  margin-top: 70px;
+  /* color: #fff; */
+}
+
+.ourstoryname1 {
+  padding: 84px 91px;
+}
+
+.ourstoryname1 h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ourstoryhead1 p {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.ourstorypp1 p {
+  font-size: 18px;
+  font-weight: 300;
+  line-break: 25px;
+}
+
+.image3 {
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.imagess h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.imagess p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* /////////////////////////  PROFILE-CARD /////////////////////////// */
+
+.profilepic {
+  justify-content: space-evenly;
+}
+
+.profilepic1 {
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+/* /////////////////////////  OUR-BLOG- /////////////////////////// */
+
+#ourblogdetail {
+  background: #0a2640;
+  color: #fff;
+}
+
+.ourblog1 {
+  text-align: center;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  padding: 60px 80px;
+}
+.ourblog1 h3 {
+  font-size: 20px;
+  font-weight: 200;
+}
+.ourblog1 p {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.ourblogborder {
+  border-bottom: 1px solid #fff;
+}
+/* 
+.ourdddd {
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 85px;
+}  */
+
+/* .ourdddd h1 {
+  font-size: 38px;
+}
+.ourdddd p {
+  font-size: 12px;
+}
+
+.ourrpppp {
+  padding: 8px 35px;
+} */
+
+.ourheded {
+  text-align: center;
+  align-items: center;
+  gap: 25px;
+  /* justify-content: space-evenly; */
+}
+
+.ourrpppp {
+  font-size: 12px;
+  padding: 30px 0;
+  /* margin: 10px 12px; */
+  /* height: auto; */
+}
+/* 
+div{
+    padding: 15px 25px;
+} */
+
+.ourhhh1 h1 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.ourhhh1 span {
+  color: #65e4a3;
+  font-size: 40px;
+}
+
+/* /////////////////////////  INPUR-FILED /////////////////////////// */
+#input {
+  margin-top: 40px;
+  color: #ffffff;
+  background: #1c3d5b;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputheard {
+  padding: 30px 120px;
+  font-size: 38px;
+}
+
+.inputheard input {
+  padding: 15px 45px;
+  border: none;
+  font-size: 16px;
+
+  border-radius: 40px;
+}
+.inputheard button {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 40px;
+  color: #0a2640;
+  background: #65e4a3;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* ////////////////////// Footer-logo ///////////////////////  */
+
+#logofooter {
+  margin-top: 50px;
+}
+
+.imagelogofooter {
+  justify-content: space-evenly;
+}
+
+.lmgfooter {
+  float: left;
+}
+
+.footerdetails {
+  /* column-fill: balance; */
+  /* column-span: none; */
+  column-gap: 80px;
+}
+
+.landing {
+  margin-top: 8px;
+  line-height: 2.5;
+}
+
+.landing button {
+  border: none;
+  font-size: 12px;
+  border-radius: 15px;
+  background: #65e4a3;
+  padding: 8px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* @media (max-width: 768px) {
+  .container {
+    width: 640px;
+  }
+  a {
+    display: inline-block;
+    padding: 0 9px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #menubar {
+    height: 60vh;
+  }
+
+  .menubar {
+    padding-top: 35px;
+  }
+
+  .menuvar1 button {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 30px 8px 30px;
+  }
+
+  .about {
+    margin-top: 50px;
+  }
+
+  .pppp {
+    font-size: 16px;
+  }
+
+  .aboutdetails {
+    font-size: 32px;
+  }
+
+  .aboutdetails2 {
+    font-size: 14px;
+  }
+
+  /* //////////  SECTION-OUR-MEMBER /////////// */
+
+#ourmember {
+  margin-top: 80px;
+}
+
+.ourmemberrr h4 {
+  font-size: 18px;
+}
+
+.ourdetail p {
+  font-size: 34px;
+  padding: 12px 80px;
+}
+
+.numberrrr h3 {
+  font-size: 38px;
+}
+
+.numberrrr p {
+  font-size: 12px;
+}
+
+/* //////////  SECTION-OUR-MEMBER /////////// */
+
+#ourstory1 {
+  margin-top: 70px;
+}
+
+.ourstoryname1 {
+  padding: 19px 80px;
+}
+
+.ourstoryname1 h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ourstoryhead1 p {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.ourstorypp1 p {
+  font-size: 20px;
+  font-weight: 300;
+  line-break: 15px;
+}
+
+.image3 {
+  justify-content: center;
+  gap: 15px;
+}
+
+/* //////////  PROFILECARD /////////// */
+.profilepic {
+  display: block;
+}
+
+.profilepic1 {
+  padding-bottom: 20px;
+}
+.profilepicdetails {
+  text-align: left;
+}
+.profilepicdetails h2 {
+  font-size: 20px;
+}
+.profilepicdetails p {
+  font-size: 14px;
+}
+
+/* ////////// OUR-BLOG- /////////// */
+.ourblog1 {
+  padding: 60px 80px;
+}
+.ourblog1 h3 {
+  font-size: 19px;
+  font-weight: 200;
+}
+.ourblog1 p {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.ourheded {
+  text-align: left;
+  gap: 15px;
+}
+
+.ourrpppp {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.ourhhh1 h1 {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.ourhhh1 span {
+  color: #65e4a3;
+  font-size: 30px;
+}
+
+/* ////////// OUR-INPUT- /////////// */
+
+.inputheard {
+  padding: 45px 60px;
+  font-size: 28px;
+}
+
+.inputheard input {
+  padding: 12px 29px;
+  font-size: 14px;
+}
+.inputheard button {
+  padding: 12px 29px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ///////////// FOOTER ///////////// */
+
+.footerdetails {
+  column-gap: 80px;
+}
+
+.landing {
+  margin-top: 8px;
+  line-height: 2.5;
+}
+
+.landing button {
+  border: none;
+  font-size: 12px;
+  border-radius: 15px;
+  background: #65e4a3;
+  padding: 8px;
+}
